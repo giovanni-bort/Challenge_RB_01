@@ -858,3 +858,7 @@ Licensing error: -4,132. qrs_detect2 line:133
 10-Jul-2020 20:09:06-> ERROR: file:     1 Key:A;  Array indices must be positive integers or logical values. cross_corr line:12
 10-Jul-2020 20:09:34-> ERROR: file:     1 Key:A;  Index exceeds the number of array elements (106). LAST_ECG_07_09_function line:736
 10-Jul-2020 20:10:53-> ERROR: file:     1 Key:A;  Index exceeds the number of array elements (1). cross_corr line:4
+15-Jul-2020 17:51:05-> ERROR: file:     1 Key:A;  Index exceeds the number of array elements (1). cross_corr line:4
+15-Jul-2020 17:53:17-> ERROR: file:     1 Key:A;  Array indices must be positive integers or logical values. cross_corr line:12
+15-Jul-2020 17:53:44-> ERROR: file:     1 Key:A;  Index exceeds the number of array elements (106). LAST_ECG_07_09_function line:736
+15-Jul-2020 17:54:58-> ERROR: file:     1 Key:A;  Index exceeds the number of array elements (1). cross_corr line:4

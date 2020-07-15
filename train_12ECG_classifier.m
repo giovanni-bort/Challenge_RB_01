@@ -44,9 +44,9 @@ for i = 1:num_files
     
     data = Total_data{i};
     header_data = Total_header{i};
-    tmp_features=0;
-%     tmp_features = get_12ECG_features(data,header_data);
     
+    %tmp_features = get_12ECG_features(data,header_data);
+    tmp_features = 0;
     features(i,:)=tmp_features;
 
     for j = 1 : length(header_data)
@@ -64,17 +64,17 @@ for i = 1:num_files
     
 end
 
-% model = mnrfit(features,label,'model','hierarchical');
-
-% save_12_ECG_model(model,output_directory);
+%model = mnrfit(features,label,'model','hierarchical');
+model=0;
+save_12_ECG_model(model,output_directory,classes);
 
 end
 
-function save_12_ECG_model(model,output_directory)
+function save_12_ECG_model(model,output_directory,classes)
 % Save results.
 tmp_file = 'finalized_model.mat';
 filename=fullfile(output_directory,tmp_file);
-save(filename,'model','-v7.3');
+save(filename,'model','classes','-v7.3');
 
 
 disp('Done.')

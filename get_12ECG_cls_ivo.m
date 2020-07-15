@@ -15,7 +15,6 @@ scores=out_labels;
     fprintf(' max:%8.0f',max(max(ECG)));
     fprintf('\n');
 
-     %Version do_04_02  copiede 11.4.20
 global out_labels_1 out_labels_2 KK_ERROR
      try
 %    Hz=500;
