@@ -1,7 +1,7 @@
 
 function [scores,out_labels]=get_12ECG_cls_ivo(ECG,Header,model,classes)
         
-addpath(genpath('My_Tools/'))
+%addpath(genpath('My_Tools/'))
         
 
 out_labels=0;out_labels(1:numel(classes))=0;
